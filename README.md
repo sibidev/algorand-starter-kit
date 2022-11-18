@@ -86,10 +86,6 @@ Take a look at the [existing ecosystem projects and tools](https://developer.alg
 
 The Algorand Developer Portal provides an [overview of the existing SDKs](https://developer.algorand.org/docs/sdks/) for the ecosystem. For testing and development you want to [setup the Algorand Sandbox](#Setup-Sandbox-for-local-testing) or even [install a full node](https://developer.algorand.org/docs/run-a-node/setup/install/) to natively access the Algorand CLI tools such as [goal](https://developer.algorand.org/docs/clis/goal/goal/), [kmd](https://developer.algorand.org/docs/clis/kmd/) or [algokey](https://developer.algorand.org/docs/clis/algokey/algokey/).
 
-If your tooling involves usage of an indexer, you can use our HackaTUM indexer node, available under 
-
-* Testnet Data - `131.159.14.109:8980`
-* Mainnet Data - `131.159.14.109:8981`
 
 ### Setup Sandbox for local testing
 
@@ -127,17 +123,6 @@ Algorand also offers [two types of contract logic](https://developer.algorand.or
 
 ## Resources
 
-### Pitch Slidedecks
-[Link to short and long pitch slides](https://tumde-my.sharepoint.com/:b:/g/personal/filip_rezabek_tum_de/EfJuLxWTpkxOjcs69QZAVcQB7BxNqUIlyx126LMuC16ecg?e=c3p4Bt)
-
-### HackaTUM Algorand Indexer
-
-To ease access to Algorand blockchain data, we operate a dedicated HackaTUM  [Algorand Indexer](https://developer.algorand.org/docs/get-details/indexer/). The indexer offers a [REST API](https://developer.algorand.org/docs/rest-apis/indexer/) to search and filter Algorand blockchain data. For easier access, you can use one of the SDK client interfaces (for JavaScript, Python, Java and Go) to access the Indexer.
-
-Our indexer is available under
-
-* Testnet Data - `131.159.14.109:8980`
-* Mainnet Data - `131.159.14.109:8981` 
 
 ### Example Smart Contract Snippets
 
@@ -227,9 +212,6 @@ Our indexer:
 - SDK/API instructions: https://developer.algorand.org/docs/get-details/indexer/
 - Example snippets: https://github.com/algorand/docs/tree/master/examples/indexer
 
-- Indexer REST API available under
-    * ```curl "131.159.14.109:8980/health"``` – testnet
-    * ```curl "131.159.14.109:8981/health"``` - mainnet
 
 
 ### What are Decentralized Identifiers?
