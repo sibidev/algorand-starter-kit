@@ -1,8 +1,3 @@
-HackaTUM 2022 Starter Pack
-==========================
-
-Welcome to the Algorand Challenge of HackaTUM 2022!
-
 This repository functions as an entry point and reference, to ease your deep dive into the Algorand ecosystem.
 
 This document is structured as follows:
@@ -13,30 +8,8 @@ This document is structured as follows:
     2. [Connect to Algorand Network](#Connect-to-Algorand-Network)
     3. [Setup Sandbox for local testing](#Setup-Sandbox-for-local-testing)
     4. [Writing SmartContracts](#Writing-SmartContracts)
-3. [Ressources](#Ressources)
-    1. [Pitch Slidedecks](#Pitch-Slidedecks)
-    2. [HackaTUM Algorand Indexer](#HackaTUM-Algorand-Indexer)
-    3. [Example Smart Contract Snippets](#Example-Smart-Contract-Snippets)
-    4. [Testbed Access](#Testbed-Access)
-4. [FAQ](#FAQ)
-5. [Reference Overview](#Reference-Overview)
 
 If you want to get your hands dirty as quickly as possible, jump right into the action and follow our [Quickstart Instructions](#Quickstart-Instructions). If you're completely new to Algorand, we suggest you start with a general introduction to the [Algorand Ecosystem](#Algorand-Ecosystem), in the [Tutorials](#Tutorials) section. Of course, if you're already familiar with some of the concepts, feel free to skip what you already know.
-
-Besides the pointers to documentation and ressources, we also provide helpful infrastructure [Ressources](#Ressources) that you can use to build your solution.
-
-If you just want the answer to a quick question, checkout the [FAQ](#FAQ) section.
-
-For convenience, we also provide a structured overview of links to all relevant ressources in the [Reference Overview](#Reference-Overview).
-
-Happy Hacking!
-
-P.S. Dont forget to claim your attandence token!
-* [Link to Typeform](https://1i6tgo34ofi.typeform.com/to/ehqxkDwm)
-* [Link to Pera wallet tutorial](https://support.perawallet.app/en/article/create-a-new-algorand-account-on-pera-wallet-1ehbj11/)
-* Opt-in 
-
-https://support.perawallet.app/en/article/create-a-new-algorand-account-on-pera-wallet-1ehbj11/
 
 
 ## Quickstart Instructions in 4 steps! Should not take longer than 30 mins. 
@@ -56,11 +29,7 @@ Required commands:
 
 4. If you want to checkout specific transactions on the public chains, you can use the [Algo Explorer](https://algoexplorer.io). The Algorand developer docs also provide an [overview of existing tools in the ecosystem](https://developer.algorand.org/ecosystem-projects).
 
-For quick questions take a look at our [FAQ](#FAQ).
 
-If questions remain find us at our booth or the Algorand Challenge HQ.
-
-Happy Hacking!
 
 
 ## Tutorials
@@ -94,10 +63,7 @@ For a first glance and easy, manual lookup of data, you can use one of the [Algo
 
 Now you want to start automating the data access. Instead of setting up an own node to fetch all the data and offer an interface, you can instead query an instance of the [Algorand Indexer](https://developer.algorand.org/docs/get-details/indexer/). The indexer offers a [REST API](https://developer.algorand.org/docs/rest-apis/indexer/) to search and filter Algorand blockchain data. For easier access, you can use one of the SDK client interfaces (for JavaScript, Python, Java and Go) to access the Indexer.
 
-To make your life easier, we operate our own Indexer instance that you can directly use to get going. The indexer is availble under
 
-* Testnet Data - `131.159.14.109:8980`
-* Mainnet Data - `131.159.14.109:8981` 
 
 #### Development of SmartContracts
 
@@ -177,25 +143,6 @@ Our indexer is available under
 
 To make your first contact with PyTEAL easier, we provide a set of simple SmartContract examples as part of this repository. You can find an introduction and more information in our [SmartContract Tutorial](#Writing-SmartContracts).
 
-### Testbed Access
-
-Some participants might not own a laptop or a Server/VM,  powerful enough to comfortably run the [sandbox setup](#Setup-Sandbox-for-local-testing). For these teams, we offer SSH access to dedicated hardware hosts.
-
-If your hardware doesn't do the trick for you, approach us at the booth or in the Algorand HQ room. We will allocate credentials for you.
-
-## FAQ
-
-### Where can I find the Algorand booth?
-
-The Algorand booth is located in the entrance area of the [FMI Magistrale](https://www.ph.tum.de/about/visit/roomfinder/?room=magistrale). Look around, you cannot miss us :)
-
-### Where can I find the Algorand HQ?
-
-The Algorand Challenge HQ is located in room `00.08.059`:
-
-https://www.ph.tum.de/about/visit/roomfinder/?room=00.08.059
-
-See you there :)
 
 ### What is a blockchain?
 
@@ -258,7 +205,6 @@ Other Ressources:
 ## Are there Naming Services on Algorand?
 
 - Algorand name service and marketplace for Non-Fungible Domains (NFDs) — unique, readable aliases for wallet addresses - [NFDomains](https://nf.domains/)
-- ANS is a decentralized naming service. An Algorand smart contract stores names and governs the naming policy -  [Algorand Name Service](https://algonameservice.com/home)
 
 ### Which programs do I need to install?
 
@@ -292,9 +238,7 @@ Our indexer:
 - General Definition: https://w3c.github.io/did-core/
 - Algorand Spec: https://github.com/algorandfoundation/did-algo
 
-### Where do I get help on XYZ?
 
-- Ask on the booth/workshop room!
 
 ## Reference Overview
 
